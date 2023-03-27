@@ -249,12 +249,13 @@ def index(request):
         
 
     elif len(steps) ==  10:
-        response = "END Best cardiovascular hospital in kenya:\n"
-        response += "- Heart Clinic - Aga Khan University Hospital Nairobi | 0111 011888.\n"
-        response += "- Kenya Cardiovascular Centre | Kiambu road | 0726 245140.\n"
-        response += "- Nairobi Heart Clinic | 020 2715807. \n"
-        response += "- Aga Khan University Hospital Nairobi | 0111 011888. \n"
-        response += "- UpperHill Cardiovascular Centre | 0736 362282 \n"
-        response += "- Nakuru Heart Centre | 0716 862144\n"
+        response = "END Here are some recommendations to help reduce your risk:\n"
+        response += "- Eat a healthy diet low in saturated and trans fats, salt, and sugar.\n"
+        response += "- Exercise regularly.\n"
+        response += "- Avoid smoking. \n"
+        response += "- little to no alcohol consumption. \n"
+        response += "- Maintain a healthy weight\n"
+        response += "- Avoiding diet high in salt or processed foods helps control your blood pressure and cholesterol levels\n"
+
     return HttpResponse(response)
 
